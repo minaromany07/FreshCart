@@ -93,7 +93,7 @@ render={({field})=>(
 
   <Button className='bg-green-500 hover:bg-green-700 transition-all w-full sm:w-auto'>Login</Button>
   <div className='flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm sm:text-base'>
-    <h3>Do not have an account ? <Link className='text-blue-600 underline font-semibold' href={'register'}>Register now</Link></h3>
+    <h3>Do not have an account ? <Link className='text-blue-600 underline font-semibold' href={'/register'}>Register now</Link></h3>
     <Link className='text-blue-600 underline font-semibold' href={'/forgetPassword'}>Forget password ?</Link>
   </div>
 </div>
